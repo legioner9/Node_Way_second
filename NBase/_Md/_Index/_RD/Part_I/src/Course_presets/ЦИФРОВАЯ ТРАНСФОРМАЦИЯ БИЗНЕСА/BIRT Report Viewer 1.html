@@ -1,0 +1,2711 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<!-- saved from url=(0108)http://edu.tltsu.ru:8888/birt-viewer-4.5/run?__report=plans_diff_details2.rptdesign&__format=html&bup=004540 -->
+<html lang="ru" class=" js no-mobile desktop no-ie birt-viewer-4.5-section w-1262 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 lt-1280 lt-1440 lt-1680 lt-1920 no-portrait landscape gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius cssreflections csstransforms csstransitions no-touch no-retina fontface domloaded" id="run-page"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>BIRT Report Viewer</title>
+		<!--<base href="//edu.tltsu.ru:8888/birt-viewer-4.5/webcontent/birt">--><base href=".">	
+		
+		<link rel="stylesheet" href="./BIRT Report Viewer 1_files/style.css" type="text/css">
+		
+		<link rel="stylesheet" href="./BIRT Report Viewer 1_files/dialogbase.css" media="screen" type="text/css">	
+		
+			
+		<script type="text/javascript">
+			
+			var soapURL = document.location.href;
+			
+			var rtl = false;
+		</script>
+		
+		<script src="./BIRT Report Viewer 1_files/Debug.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/prototype.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/head.js.Без названия" type="text/javascript"></script>
+		
+		<script type="text/javascript">	
+			null
+		</script>
+		
+		<!-- Mask -->
+		<script src="./BIRT Report Viewer 1_files/Mask.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BrowserUtility.js.Без названия" type="text/javascript"></script>
+		
+		<!-- Drag and Drop -->
+		<script src="./BIRT Report Viewer 1_files/BirtDndManager.js.Без названия" type="text/javascript"></script>
+		
+		<script src="./BIRT Report Viewer 1_files/Constants.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtUtility.js.Без названия" type="text/javascript"></script>
+		
+		<script src="./BIRT Report Viewer 1_files/BirtEventDispatcher.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtEvent.js.Без названия" type="text/javascript"></script>
+		
+		<script src="./BIRT Report Viewer 1_files/BirtBaseResponseHandler.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtGetUpdatedObjectsResponseHandler.js.Без названия" type="text/javascript"></script>
+
+		<script src="./BIRT Report Viewer 1_files/AbstractUIComponent.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtProgressBar.js.Без названия" type="text/javascript"></script>
+
+ 		<script src="./BIRT Report Viewer 1_files/AbstractReportComponent.js.Без названия" type="text/javascript"></script>
+ 		<script src="./BIRT Report Viewer 1_files/AbstractBaseReportDocument.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtReportDocument.js.Без названия" type="text/javascript"></script>
+
+		<script src="./BIRT Report Viewer 1_files/AbstractBaseDialog.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtTabedDialogBase.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/AbstractParameterDialog.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtParameterDialog.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/AbstractExceptionDialog.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtExceptionDialog.js.Без названия" type="text/javascript"></script>
+		
+		<script src="./BIRT Report Viewer 1_files/BirtPosition.js.Без названия" type="text/javascript"></script>
+
+		<script src="./BIRT Report Viewer 1_files/BirtCommunicationManager.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtSoapRequest.js.Без названия" type="text/javascript"></script>
+		<script src="./BIRT Report Viewer 1_files/BirtSoapResponse.js.Без названия" type="text/javascript"></script>
+                <script type="text/javascript">
+                        const Http = new XMLHttpRequest();
+                        const url='http://edu.tltsu.ru/report/birt_checker.php?report_name='+window.location.href;
+                        Http.open("GET", url);
+                        Http.send();
+                </script>
+
+
+	<style type="text/css">.cc_cursor, body, .ogdlpmhglpejoiomcodnpjnfgcpmgale_default, body, html, input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input::-webkit-contacts-auto-fill-button, input:read-only {cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABdElEQVQ4T2M8cvv+fxtVRUYGMgFjYd+c/6nxQQxawkJkGcJYPGHe/97SToZbb04zqPHzkWwIY9W0xf/b2qYzMLx8y3Dr7ZlLany8+qT4hrFhzor/DR0zGBgePgfru/PujK4KL+8VYg1hbJi78n9DO9AFUAMMTHQZLhxfQ7RXGNsWrftf1TSJgeHbDwaG1+/BFu8+vY7B1UCbKEMYe1ds/l9c0wtxMdQVICaxgco4ed2O/7llHRgGgA15ffq7mgAfF77wQDXgyzcGhrcfUdTfenMqX42fH+hH7IBx1pa9/9MKmhGySN4ACXLzcDN8eXeWiZGR8T82IxgX7Dr8PyGrFi4n+Pk7w/t3H1DUdkyuY6jIiMYaqIyL9x79H5teDdZw4fAqBgNJMbjC6+/fK7AwM6f+/8+Q9uP/PzU9AQFINCEBxmUHT/yPSq5gWLuolyHYypioqEMxYO3xs/+PHD/P0F+UQrJmkEGMpx8/+28qK0WWZpABAFfPjxGw1mWxAAAAAElFTkSuQmCC") 0 0 , auto !important; }.cc_pointer,[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration, .paper-button, .ytp-progress-bar-container, input[type=submit], :link, :visited, a > *, img, button, ::-webkit-scrollbar-button, .ogdlpmhglpejoiomcodnpjnfgcpmgale_pointer, ::-webkit-file-upload-button, button, .ytp-volume-panel, #myogdlpmhglpejoiomcodnpjnfgcpmgale .icon { cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABaUlEQVQ4T2NkwAZY1f9DhP+lM/y+PQurGqggI6akisytj+ceg8TVREwZGH7fxKIGoQtTkk1F69brc1cpMEBV89brs9eoaMB/TQaGWzcYGKS4GBiefUP3MhYvqGncen3mOrJCZ5NAhr1n1jPs3LKbITc6H2jQk+8weaIMgCn++OEDw+H9xxmERAQZEgJyDjP8uWXHyMCqdiU+PVJ74cwVkBBnV1e/9eo00MmY4M+fPwwvX7wASzgaBILVAw1Q/3/rzWmwIDjamBg0cBkAUvP0yRPcBoBkvG3CGbYeWYk17fz5/Zvh5cuXaAaAuEiuwJfq3rx5w/Dzxw8sBhBpCMz5qGGAbCUel/z69Yvh9atXcNWOBgEXGH7fMsSMRqAh+y+sZ+AXEGDg4eEBa3j29CnD///Q/AXkBzjEM3x8fRqsF3tGYVF7Ud1eJO7iZYcRJPGBuQyPbl0BmvzyK24DYNpY1X+BghjFFLTcCQDviqMRO9+fjwAAAABJRU5ErkJggg==") 14 0, auto !important; } </style><style type="text/css">
+		.style_0 { font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14pt; color: black; text-indent: 0em; letter-spacing: normal; word-spacing: normal; text-transform: none; white-space: normal; line-height: normal;}
+		.style_4 { border: thin solid rgb(0, 0, 0);}
+		.style_2 { font-weight: bold; font-size: 18pt;}
+		.style_3 { border: thin solid rgb(0, 0, 0);}
+</style></head>
+	
+	<body class="BirtViewer_Body" onload="javascript:init( );" scroll="no" leftmargin="0px" style="overflow:hidden; direction: ltr" cz-shortcut-listen="true">
+		<!-- Header section -->
+		<table id="layout" cellspacing="0" cellpadding="0" style="width:100%;height:100%">
+		
+
+
+
+
+
+
+
+
+<tbody><tr valign="top">
+<td id="reportdialog" style="width:0%;vertical-align:top">
+
+
+
+
+
+
+
+
+
+
+<div id="exceptionDialog" class="dialogBorder" style="display: none; position: absolute; z-index: 220; top: 0px; left: 0px;">
+	<iframe id="exceptionDialogiframe" name="exceptionDialogiframe" style="z-index:-1; display: none; left:0px; top:0px;
+					 background-color: #ff0000; opacity: .0; filter: alpha(opacity = 0); position: absolute;" frameborder="0" scrolling="no" src="./BIRT Report Viewer 1_files/blank.html">
+	</iframe>	
+	<div id="exceptionDialogdialogTitleBar" class="dialogTitleBar dTitleBar">
+		<div class="dTitleTextContainer">
+			<table style="width: 100%; height: 100%;">
+				<tbody><tr>
+					<td class="dialogTitleText dTitleText">
+						Exception
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+		<div class="dialogCloseBtnContainer dCloseBtnContainer">
+			<table style="width: 100%; height: 100%; border-collapse: collapse">
+				<tbody><tr>
+					<td>
+						<label class="birtviewer_hidden_label" for="exceptionDialogdialogCloseBtn">
+							Close
+						</label>						
+						<div id="exceptionDialogdialogCloseBtn" class="dialogCloseBtn dCloseBtn">
+					</div></td>
+				</tr>
+			</tbody></table>
+		</div>
+	</div>
+	<!-- overflow is set as workaround for Mozilla bug https://bugzilla.mozilla.org/show_bug.cgi?id=167801 -->		
+	<div class="dialogBackground" style="overflow: auto;"> 
+		<div class="dBackground">
+			<div class="dialogContentContainer" id="exceptionDialogdialogContentContainer">
+				
+
+
+
+
+
+
+
+
+<table cellspacing="2" cellpadding="2" class="birtviewer_dialog_body">
+	<tbody><tr>
+		<td class="birtviewer_exception_dialog">
+			<table cellspacing="2" cellpadding="2">
+				<tbody><tr>
+					<td valign="top"><img src="./BIRT Report Viewer 1_files/Error.gif"></td>
+					
+					<td>
+					
+						<table cellspacing="2" cellpadding="4" class="birtviewer_exception_dialog_container">
+							<tbody><tr>
+								<td>
+								<div id="faultStringContainer" class="birtviewer_exception_dialog_message" style="width: 520px; overflow: auto;">
+									<b><span id="faultstring"></span><b>
+								</b></b></div><b><b>
+								</b></b></td>
+							</tr>
+							<tr>
+								<td>
+									<div id="showTraceLabel" class="birtviewer_exception_dialog_label" tabindex="0">
+										Show Exception Stack Trace 
+									</div>																				
+									<div id="hideTraceLabel" class="birtviewer_exception_dialog_label" style="display:none" tabindex="0">
+										Hide Exception Stack Trace 
+									</div>									
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div id="exceptionTraceContainer" style="display: none; width: 520px;">
+										<table width="100%">
+											<tbody><tr>
+												<td>
+													Stack Trace:<br>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="birtviewer_exception_dialog_detail" style="width: 510px;">
+														<span id="faultdetail"></span>
+													</div>
+												</td>
+											</tr>											
+										</tbody></table>
+									</div>
+								</td>
+							</tr>	
+						</tbody></table>
+					
+					</td>
+					
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+			</div>
+			<div class="dialogBtnBarContainer">
+				<div>
+					<div class="dBtnBarDividerTop">
+					</div>
+					<div class="dBtnBarDividerBottom">
+					</div>
+				</div>
+				<div class="dialogBtnBar">
+					<div id="exceptionDialogdialogCustomButtonContainer" class="dialogBtnBarButtonContainer">
+						<div id="exceptionDialogokButton" class="dialogBtnBarButtonEnabled">
+							<div id="exceptionDialogokButtonLeft" class="dialogBtnBarButtonLeftBackgroundEnabled"></div>
+							<div id="exceptionDialogokButtonRight" class="dialogBtnBarButtonRightBackgroundEnabled"></div>
+							<input type="button" value="OK" title="OK" class="dialogBtnBarButtonText dialogBtnBarButtonEnabled">
+						</div>
+						<div class="dialogBtnBarDivider"></div>
+						<div id="exceptionDialogcancelButton">
+							<div class="dialogBtnBarButtonLeftBackgroundEnabled"></div>
+							<div class="dialogBtnBarButtonRightBackgroundEnabled"></div>
+							<input type="button" value="Cancel" title="Cancel" class="dialogBtnBarButtonText dialogBtnBarButtonEnabled">
+						</div> 
+					</div>							
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="parameterDialog" class="dialogBorder" style="display: none; position: absolute; z-index: 220; top: 0px; left: 0px;">
+	<iframe id="parameterDialogiframe" name="parameterDialogiframe" style="z-index:-1; display: none; left:0px; top:0px;
+					 background-color: #ff0000; opacity: .0; filter: alpha(opacity = 0); position: absolute;" frameborder="0" scrolling="no" src="./BIRT Report Viewer 1_files/blank(1).html">
+	</iframe>	
+	<div id="parameterDialogdialogTitleBar" class="dialogTitleBar dTitleBar">
+		<div class="dTitleTextContainer">
+			<table style="width: 100%; height: 100%;">
+				<tbody><tr>
+					<td class="dialogTitleText dTitleText">
+						Parameter
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+		<div class="dialogCloseBtnContainer dCloseBtnContainer">
+			<table style="width: 100%; height: 100%; border-collapse: collapse">
+				<tbody><tr>
+					<td>
+						<label class="birtviewer_hidden_label" for="parameterDialogdialogCloseBtn">
+							Close
+						</label>						
+						<div id="parameterDialogdialogCloseBtn" class="dialogCloseBtn dCloseBtn">
+					</div></td>
+				</tr>
+			</tbody></table>
+		</div>
+	</div>
+	<!-- overflow is set as workaround for Mozilla bug https://bugzilla.mozilla.org/show_bug.cgi?id=167801 -->		
+	<div class="dialogBackground" style="overflow: auto;"> 
+		<div class="dBackground">
+			<div class="dialogContentContainer" id="parameterDialogdialogContentContainer">
+				
+
+
+
+
+
+
+
+
+<div class="birtviewer_parameter_dialog">
+	<table cellspacing="2" cellpadding="2" id="parameter_table" class="birtviewer_dialog_body">
+		<tbody><tr valign="top">
+			<td>
+				<table style="font-size:8pt">
+					<tbody><tr height="5px"><td></td></tr>
+					
+						<tr><td colspan="2">Parameters marked with <font color="red">*</font> are required.</td></tr>
+					
+
+
+
+
+
+
+
+
+
+<tr>
+	<td nowrap="">
+		<img src="./BIRT Report Viewer 1_files/parameter.gif" alt="bup" title="">
+	</td>
+	<td nowrap="">
+		<font title=""><label for="bup">bup:</label></font>
+		
+		
+			<font color="red"><label for="bup">*</label></font>
+		
+	</td>
+</tr>
+<tr>
+	<td nowrap=""></td>
+	<td nowrap="" width="100%">
+	<input type="HIDDEN" id="control_type" value="text">
+	<input type="HIDDEN" id="data_type" value="1">
+	
+		<input class="BirtViewer_parameter_dialog_Input" type="TEXT" name="bup" id="bup" title="" value="004540" aria-required="true">
+
+		<input type="HIDDEN" id="bup_value" value="004540">
+		
+		<input type="HIDDEN" id="bup_displayText" value="004540">
+
+
+		<input type="HIDDEN" id="isRequired" value="true">
+	</td>
+</tr>
+					<tr height="5px"><td></td></tr>
+				</tbody></table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="birt_hint" style="font-size:12px;color:#000000;display:none;position:absolute; z-index:300;background-color: #F7F7F7; layer-background-color: #0099FF; border: 1px #000000 solid;filter:Alpha(style=0,opacity=80,finishOpacity=100);">
+				</div>		
+			</td>
+		</tr>
+		
+	</tbody></table>	
+</div>
+			</div>
+			<div class="dialogBtnBarContainer">
+				<div>
+					<div class="dBtnBarDividerTop">
+					</div>
+					<div class="dBtnBarDividerBottom">
+					</div>
+				</div>
+				<div class="dialogBtnBar">
+					<div id="parameterDialogdialogCustomButtonContainer" class="dialogBtnBarButtonContainer">
+						<div id="parameterDialogokButton" class="dialogBtnBarButtonEnabled">
+							<div id="parameterDialogokButtonLeft" class="dialogBtnBarButtonLeftBackgroundEnabled"></div>
+							<div id="parameterDialogokButtonRight" class="dialogBtnBarButtonRightBackgroundEnabled"></div>
+							<input type="button" value="OK" title="OK" class="dialogBtnBarButtonText dialogBtnBarButtonEnabled">
+						</div>
+						<div class="dialogBtnBarDivider"></div>
+						<div id="parameterDialogcancelButton">
+							<div class="dialogBtnBarButtonLeftBackgroundEnabled"></div>
+							<div class="dialogBtnBarButtonRightBackgroundEnabled"></div>
+							<input type="button" value="Cancel" title="Cancel" class="dialogBtnBarButtonText dialogBtnBarButtonEnabled">
+						</div> 
+					</div>							
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</td>
+</tr>
+
+
+
+
+
+
+ 
+
+<tr valign="top">
+	<td id="documentView" style="direction: ltr;">
+		<table cellpadding="0" cellspacing="0" border="0">
+		<tbody><tr>
+			<td style="vertical-align: top;">
+				
+
+
+
+
+
+
+
+
+<div id="progressBar" style="position: absolute; z-index: 310; top: 206px; left: 506px; display: none;">
+	<table width="250px" class="birtviewer_progressbar" cellspacing="10px">
+		<tbody><tr>
+			<td align="center">
+				<b>
+					Processing, please wait ...
+				</b>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<img src="./BIRT Report Viewer 1_files/Loading.gif" alt="Progress Bar Image">
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<div id="cancelTaskButton" style="display: block;">
+					<table width="100%">
+						<tbody><tr>
+							<td align="center">
+								<input type="BUTTON" value="Cancel" title="Cancel" class="birtviewer_progressbar_button">
+							</td>
+						</tr>
+					</tbody></table>
+				</div>
+			</td>
+		</tr>	
+		<input type="HIDDEN" id="taskid" value="">
+	</tbody></table>
+</div>
+
+
+
+
+
+
+
+
+<div id="display0" style="display:none;width:250px;position:relative;overflow:auto">
+</div>
+
+			</td>
+			<td style="vertical-align: top;">
+				<div id="Document" class="birtviewer_document_fragment" style="left: 0px; width: 1258px; height: 522px;"><div>
+<style type="text/css">
+		.style_0 { font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14pt; color: black; text-indent: 0em; letter-spacing: normal; word-spacing: normal; text-transform: none; white-space: normal; line-height: normal;}
+		.style_4 { border: thin solid rgb(0, 0, 0);}
+		.style_2 { font-weight: bold; font-size: 18pt;}
+		.style_3 { border: thin solid rgb(0, 0, 0);}
+</style>
+<script type="text/javascript">
+ //<![CDATA[
+   function redirect(target, url){
+       if (target =='_blank'){
+           open(url);
+       }
+       else if (target == '_top'){
+           window.top.location.href=url;
+       }
+       else if (target == '_parent'){
+           location.href=url;
+       }
+       else if (target == '_self'){
+           location.href =url;
+       }
+       else{
+           open(url);
+       }
+      }
+ //]]>
+</script>
+<div id="__BIRT_ROOT" class="style_0" title="BIRT Report Viewer">
+	<table cellpadding="0" style="empty-cells: show; border-collapse:collapse; width:100%;">
+		<colgroup><col>
+		</colgroup><tbody><tr>
+			<td valign="top">
+				<table style="border-collapse: collapse; empty-cells: show; width: 100%;" id="__bookmark_1">
+					<colgroup><col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					</colgroup><tbody><tr valign="top" id="__TOC_0">
+						<td colspan="9" align="center" valign="middle">
+							<div class="style_2" id="AUTOGENBOOKMARK_1_a4b940e3-d8f7-43c0-8697-a0e8ae1b7b4f">Подробная информация по плану в Галактике и в портале</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td colspan="9" align="center" valign="middle">
+							<div style=" overflow:hidden;">Регистрационный номер БУПа: 004540</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td colspan="9" align="center" valign="middle">
+							<div style=" overflow:hidden;">Наименование XML-файла: z09.03.03_05_do1_2020_3++.plx</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td colspan="9" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_2_35b10058-9a94-4341-9855-0982d2a2ba50">&nbsp;</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_3" rowspan="2" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_3_e0a3065d-1e17-4794-aa35-7364bd5a4c89">Код дисциплины</div>
+						</td>
+						<td class="style_3" rowspan="2" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_4_1ba315d8-e0d8-437a-b02e-6f45f7d8f209">Наименование дисциплины</div>
+						</td>
+						<td class="style_3" rowspan="2" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_5_c7c3499c-82b6-47f6-8ee6-9e4b758c7793">Семестр</div>
+						</td>
+						<td class="style_3" colspan="2" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_6_6d4ba031-0764-4d7f-98de-4e435abf8db4">Количество ЗЕТ</div>
+						</td>
+						<td class="style_3" colspan="2" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_7_8e0beebf-583f-4515-8d9f-8f15a475aa1a">Количество часов</div>
+						</td>
+						<td class="style_3" colspan="2" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_8_9ba294c9-815e-4254-85be-588ee0b86e28">Форма контроля</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_3" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_9_33663789-6b81-4aa0-afbe-4d36fd6ab748">в Галактике</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_10_ec3ea8a1-eeb6-4221-96f7-efdd494a7a97">на портале</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_11_0cb9e6d9-a152-4498-8449-dc1f191834ce">в Галактике</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_12_9a76ce01-6108-4721-868d-34bc25d69911">на портале</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_13_5b6e999e-bb3c-40a6-ae21-39ec22cbcfa1">в Галактике</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div id="AUTOGENBOOKMARK_14_53a5fa37-3d5e-428c-81cd-8e586c55f227">на портале</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.13.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Адаптивный курс математики /Высшая математика/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.17</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Архитектура компьютеров и операционные системы</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.20</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Базы данных</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.08</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Безопасность жизнедеятельности</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.08</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Введение в анализ данных</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.18</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Введение в программную инженерию</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б3.01(Д)</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Выполнение и защита выпускной квалификационной работы</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>10</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>324</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>324</div>
+						</td>
+						<td class="style_3" style=" background-color: rgb(255, 128, 128);" align="center" valign="middle">
+							<div>
+								<div style="visibility:hidden">&nbsp;</div>
+							</div>
+						</td>
+						<td class="style_3" style=" background-color: rgb(255, 128, 128);" align="center" valign="middle">
+							<div>
+								<div style="visibility:hidden">&nbsp;</div>
+							</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.13.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Высшая математика 1 /Высшая математика/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.13.03</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Высшая математика 2 /Высшая математика/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.13.04</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Высшая математика 3 /Высшая математика/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.04.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Глубокое машинное обучение</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>ФТД.03</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Инновационный менеджмент</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.06.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Иностранный язык 1 /Иностранный язык/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.06.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Иностранный язык 2 /Иностранный язык/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.06.03</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Иностранный язык 3 /Иностранный язык/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.06.04</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Иностранный язык 4 /Иностранный язык/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.06</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Интеграция информационных систем</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>8</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.23</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Информационная безопасность</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.03</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Информационные системы и технологии</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>История (история России, всеобщая история)</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.03.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Компьютерная графика</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.21</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Компьютерные сети</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.04</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Корпоративные информационные системы</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>7</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет и курсовая работа</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет и курсовая работа</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.15</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Менеджмент и маркетинг</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.16</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Методы решения проблем в информатике</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.13</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Моделирование и прогнозирование социально-экономических процессов</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.04.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Обработка естественного языка</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.19</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Объектно-ориентированное программирование</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.03.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Организация и администрирование операционных систем</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.14</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Основы дискретной математики и логики</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.10</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Основы моделирования и проектирования программного обеспечения</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен и курсовая работа</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен и курсовая работа</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.15</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Основы программирования</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.03</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Правоведение</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.01.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Программирование на Java (Джава) 1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.02.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Программирование на Java (Джава) 2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.02.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Программирование на .Net (ДотНет) 2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.ДВ.01.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Программирование на .Net (ДотНет)1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.12.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность (практикум) 1 /Проектная деятельность (практикум)/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.12.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность (практикум) 2 /Проектная деятельность (практикум)/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.12.03</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность (практикум) 3 /Проектная деятельность (практикум)/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.12.04</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность (практикум) 4 /Проектная деятельность (практикум)/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>ФТД.01.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность (продвинутый уровень) 1 /Проектная деятельность (продвинутый уровень)/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>ФТД.01.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность (продвинутый уровень) 2 /Проектная деятельность (продвинутый уровень)/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.11.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность 1 /Проектная деятельность/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>72</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>72</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.11.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность 2 /Проектная деятельность/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.11.03</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность 3 /Проектная деятельность/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.11.04</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектная деятельность 4 /Проектная деятельность/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>36</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.02.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектный практикум 1 /Проектный практикум/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>8</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.02.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Проектный практикум 2 /Проектный практикум/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б2.В.04(Пд)</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Производственная практика (преддипломная практика)</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>10</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>324</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>324</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б2.В.01(П)</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Производственная практика (технологическая (проектно-технологическая) практика) 1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б2.В.02(П)</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Производственная практика (технологическая (проектно-технологическая) практика) 2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>7</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б2.В.03(П)</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Производственная практика (технологическая (проектно-технологическая) практика) 3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>8</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.01.01</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Профессиональный английский язык 1 /Профессиональный английский язык/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.01.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Профессиональный английский язык 2 /Профессиональный английский язык/</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.09</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Разработка предметно-ориентированных систем</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.14</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Риск-менеджмент</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>9</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.05</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Русский язык и культура речи</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.22</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Системы искусственного интеллекта</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>8</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.14</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Теория и практика межкультурной коммуникации</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>72</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>72</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.11</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Технологии и средства конструирования программного обеспечения</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.05</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Управление качеством программного обеспечения</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.10</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Управление личной эффективностью</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.12</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Управление требованиями к программному обеспечению</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>216</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Экзамен</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б2.О.01(У)</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Учебная практика (ознакомительная практика) 1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б2.О.02(У)</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Учебная практика (ознакомительная практика) 2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>5</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>180</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Дифференциальный зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.07</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Физическая культура и спорт</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>2</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>72</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>72</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.02</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Философия</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.09</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Цифровая культура</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>1</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.В.07</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Человеко-машинное взаимодействие</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>6</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>4</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>144</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+					<tr valign="top">
+						<td class="style_4" valign="middle">
+							<div>Б1.О.04</div>
+						</td>
+						<td class="style_4" valign="middle">
+							<div>Экономика</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>3</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>108</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+						<td class="style_3" align="center" valign="middle">
+							<div>Зачет</div>
+						</td>
+					</tr>
+				</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+</div></div></div>
+			</td>
+		</tr>
+		</tbody></table>
+	</td>
+</tr>
+		</tbody></table>
+	
+
+	
+
+
+<script type="text/javascript">
+// <![CDATA[	
+	// Error msgs
+	Constants.error.invalidPageRange = 'Invalid page range';
+	Constants.error.parameterRequired = 'Value of required parameter [{0}] is not specified.';
+	Constants.error.parameterNotAllowBlank = 'The parameter \"{0}\" cannot be blank.';
+	Constants.error.parameterNotSelected = 'Please select value for parameter \"{0}\".';
+	Constants.error.invalidPageNumber = 'Please enter valid page number.';
+	Constants.error.invalidCopiesNumber = 'Please enter valid copies number.';
+	Constants.error.unknownError = 'Unknown error.';
+	Constants.error.generateReportFirst = 'Report document should be generated first.';
+	Constants.error.columnRequired = 'No column is selected, please select at least one column for export.';
+	Constants.error.printPreviewAlreadyOpen = 'A print preview window is already open.';
+	Constants.error.confirmCancelTask = 'Do you want to cancel current operation?';
+// ]]>
+</script>
+	
+	
+
+
+<script type="text/javascript">
+// <![CDATA[
+            
+    Constants.nullValue = '$${{((null))}}$$';
+    
+	// Request attributes
+	if ( !Constants.request )
+	{
+		Constants.request = {};
+	}
+	Constants.request.format = 'html';
+	Constants.request.rtl = false;
+	Constants.request.isDesigner = false;
+	Constants.request.servletPath = "/run".substr(1);
+	
+	Constants.viewingSessionId = "20200724_181220_966";	
+// ]]>
+</script>
+	
+
+	<script type="text/javascript">
+	// <![CDATA[
+		var hasSVGSupport = false;
+		var useVBMethod = false;
+		if ((!!document.createElementNS && !!document.createElementNS(
+				'http://www.w3.org/2000/svg', 'svg').createSVGRect)
+				|| navigator.mimeTypes != null
+				&& navigator.mimeTypes.length > 0
+				&& navigator.mimeTypes["image/svg+xml"] != null) {
+			hasSVGSupport = true;
+		} else {
+			useVBMethod = true;
+		}
+
+	// ]]>
+	</script>
+	
+	<script type="text/vbscript">
+		On Error Resume Next
+		If useVBMethod = true Then
+		    hasSVGSupport = IsObject(CreateObject("Adobe.SVGCtl"))
+		End If
+	</script>
+
+	<script type="text/javascript">
+		var Mask =  new Mask(false); //create mask using "div"
+		var BrowserUtility = new BrowserUtility();
+		DragDrop = new BirtDndManager();
+		
+		var birtReportDocument = new BirtReportDocument( "Document" );
+		var birtProgressBar = new BirtProgressBar( 'progressBar' );
+
+		var birtParameterDialog = new BirtParameterDialog( 'parameterDialog', 'run' );
+		var birtExceptionDialog = new BirtExceptionDialog( 'exceptionDialog' );
+		
+		function init()
+		{
+			soapURL = birtUtility.initSessionId( soapURL );
+		
+			soapURL = birtUtility.initDPI( soapURL );
+			birtParameterDialog.__init_page_all( );
+		
+		}
+		
+		// When link to internal bookmark, use javascript to fire an Ajax request
+		function catchBookmark( bookmark )
+		{	
+			var action = window.location.href;
+			var reg = new RegExp( "([^#]*)#.*", "gi" );
+			if( action.search( reg ) >= 0 )
+			{
+				action = action.replace( reg, "$1" );
+			}
+			
+			window.location.href = action + "#" + birtUtility.htmlDecode( bookmark );		
+		}
+		
+	</script><div id="Mask" style="position: absolute; top: 0px; left: 0px; width: 1262px; height: 524px; z-index: 200; background-color: rgb(0, 68, 255); opacity: 0; display: none;"></div><div style="position: absolute; top: 0px; left: 0px; width: 1262px; height: 524px; z-index: 200; background-color: rgb(255, 0, 0); opacity: 0; display: none; cursor: move;"></div><iframe src="./BIRT Report Viewer 1_files/blank(2).html" scrolling="no" marginheight="0px" marginwidth="0px" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 524px; z-index: 300; background-color: rgb(219, 228, 238); opacity: 0; display: none;"></iframe>
+
+</body></html>

@@ -1,0 +1,45 @@
+{
+  "name": "node_docs",
+  "version": "1.0.0",
+  "description": "\"# Node_Docs\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ndb Education/IlKan/learn.javascript.ru/VJs/async_await/1.js",
+    "dev_examp": "ndb node_modules/st_ex1/SetRegExp/RegExp/Exec_test/Test/1.js",
+    "dev_st_doc1": "ndb node_modules/st_doc1/js_DOCS/Object/Docs/Assign/1.js",
+    "node": "node node_modules/st_ex1/SetComandLine/SimpleLines/ExampleLogin/T est/1.js",
+    "dev_Gzip": "node nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/fs_decripto_zlib_fs_on_ClassReportProgress_on_done.js data",
+    "dev_client": "ndb node NPM_/legioner9_ex2/Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
+    "ngrok_3003": "ngrok http 3003",
+    "dev_brk": "ndb node --inspect-brk index.js",
+    "dev_gc_CancelDefault_ourStart": "ndb node --expose-gc --nouse-idle-notification Education/Timur_Video_Node.js/part_16/MemoryLeaks-master/JavaScript/6-gc.js",
+    "dev_gc_logingDefault": "ndb node --trace_gc Education/Timur_Video_Node.js/part_16/MemoryLeaks-master/JavaScript/7-trace-gc.js",
+    "test": "eslint NBase/_Md/_Index/_HPW/Part_I/content/Courses/Fundamentals/automaticLabCheck/DataTypes-master/Exercises; hpw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legioner9/Node_Docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legioner9/Node_Docs/issues"
+  },
+  "homepage": "https://github.com/legioner9/Node_Docs#readme",
+  "engines": {
+    "node": ">=0.7.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "ndb-inspect": "^0.0.1"
+  },
+  "dependencies": {
+    "eslint": "^7.1.0",
+    "hpw": "^0.1.11",
+    "metasync": "^0.3.31",
+    "minimist": "^1.2.5",
+    "st_doc1": "^1.0.29",
+    "st_ex1": "^1.2.25",
+    "st_ini": "^1.0.10"
+  }
+}

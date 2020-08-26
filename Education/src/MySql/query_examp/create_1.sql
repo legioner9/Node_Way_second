@@ -1,0 +1,1 @@
+CREATE SCHEMA 'st_schema' ;
