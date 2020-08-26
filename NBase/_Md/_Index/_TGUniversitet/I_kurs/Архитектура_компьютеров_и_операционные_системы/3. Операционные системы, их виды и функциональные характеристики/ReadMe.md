@@ -6,4 +6,4 @@
 
 <a href="https://edu.rosdistant.ru/mod/quiz/view.php?id=32256" target="_blank">Промежуточный тест 3</a>
 
-<a href="https://edu.rosdistant.ru/mod/assign/view.php?id=44306" target="_blank">Задание 1</a>
+<a href="https://edu.rosdistant.ru/mod/assign/view.php?id=44306" target="_blank">Задание 1</a>  
